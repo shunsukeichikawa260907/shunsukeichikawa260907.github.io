@@ -23,11 +23,10 @@ export default function EnglishContactPage() {
           3-1 Yatsukaho, Hakusan, Ishikawa 924-0838, Japan
         </p>
         <p>
-          <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent("Genome Biotechnology Laboratory, Kanazawa Institute of Technology, 3-1 Yatsukaho, Hakusan, Ishikawa, Japan")}`} target="_blank" rel="noopener noreferrer">View the location on Google Maps</a><br />
-          <a href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent("Genome Biotechnology Laboratory, Kanazawa Institute of Technology, 3-1 Yatsukaho, Hakusan, Ishikawa, Japan")}`} target="_blank" rel="noopener noreferrer">Get directions on Google Maps</a>
+          <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent("Genome Biotechnology Laboratory, Kanazawa Institute of Technology, 3-1 Yatsukaho, Hakusan, Ishikawa, Japan")}`} target="_blank" rel="noopener noreferrer">View the location on Google Maps</a>
         </p>
-        <p>Please see the <a href="https://www.kanazawa-it.ac.jp/about_kit/yatsukaho.html" target="_blank" rel="noopener noreferrer">official campus access and transportation information (in Japanese)</a>. The intercampus shuttle is intended for students, faculty, and staff; external visitors should contact us in advance to check whether they may use it.</p>
-        <p>Please contact us by email before your visit so that we can arrange a time and meeting point.</p>
+        <p>Please see the <a href="https://www.kanazawa-it.ac.jp/about_kit/yatsukaho.html" target="_blank" rel="noopener noreferrer">official campus access and transportation information (in Japanese)</a>. The intercampus shuttle is intended for students, faculty, and staff. External visitors should travel by car or taxi.</p>
+        <p>Please contact us by email before your visit.</p>
       </article>
     </PageLayout>
   );

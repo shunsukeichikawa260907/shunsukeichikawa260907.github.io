@@ -21,11 +21,10 @@ export default function ContactPage() {
           〒924-0838 石川県白山市八束穂3-1
         </p>
         <p>
-          <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent("金沢工業大学 ゲノム生物工学研究所 石川県白山市八束穂3-1")}`} target="_blank" rel="noopener noreferrer">Google マップで所在地を見る</a><br />
-          <a href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent("金沢工業大学 ゲノム生物工学研究所 石川県白山市八束穂3-1")}`} target="_blank" rel="noopener noreferrer">Google マップで経路を調べる</a>
+          <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent("金沢工業大学 ゲノム生物工学研究所 石川県白山市八束穂3-1")}`} target="_blank" rel="noopener noreferrer">Google マップで所在地を見る</a>
         </p>
-        <p>キャンパスへの交通案内は、<a href="https://www.kanazawa-it.ac.jp/about_kit/yatsukaho.html" target="_blank" rel="noopener noreferrer">大学公式のアクセス案内</a>をご覧ください。キャンパス間のシャトルバスは学生・教職員向けですので、学外から訪問される方は利用の可否を事前にご相談ください。</p>
-        <p>ご訪問の際は、事前にメールでご連絡ください。訪問日時と待ち合わせ場所をご案内します。</p>
+        <p>キャンパスへの交通案内は、<a href="https://www.kanazawa-it.ac.jp/about_kit/yatsukaho.html" target="_blank" rel="noopener noreferrer">大学公式のアクセス案内</a>をご覧ください。キャンパス間のシャトルバスは、学生・教職員向けです。学外から訪問される方は、自動車やタクシーをご利用ください。</p>
+        <p>ご訪問の際は、事前にメールでご連絡ください。</p>
       </article>
     </PageLayout>
   );
