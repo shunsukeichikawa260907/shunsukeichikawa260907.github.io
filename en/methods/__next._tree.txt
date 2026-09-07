@@ -1,0 +1,8 @@
+:HL["/_next/static/chunks/071s7nue21e-d.css","style"]
+:HL["/research-images/microscopy-cell.jpg","image"]
+:HL["/research-images/microscopy-vesicle.jpg","image"]
+:HL["/research-images/fluorescence-channel-3.jpg","image"]
+:HL["/research-images/fluorescence-channel-1.jpg","image"]
+:HL["/research-images/fluorescence-overlay.jpg","image"]
+:HL["/research-images/ecoli-growth.gif","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"en","param":null,"prefetchHints":0,"slots":{"children":{"name":"methods","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"7cRdMU2heLwSjBfCALIby"}
