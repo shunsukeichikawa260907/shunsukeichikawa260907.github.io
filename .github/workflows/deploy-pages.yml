@@ -45,11 +45,21 @@ jobs:
       - name: Build static website
         run: npx next build
 
+      - name: Make Next.js assets compatible with branch publishing
+        run: |
+          mv out/_next out/site-assets
+          while IFS= read -r -d '' file; do
+            if grep -Iq '/_next/' "$file"; then
+              sed -i 's#/_next/#/site-assets/#g' "$file"
+            fi
+          done < <(find out -type f -print0)
+
       # The repository was initially configured to publish the main branch
       # directly. Keep a copy of the generated site at the branch root so the
       # same website is served correctly under either Pages source setting.
       - name: Publish static website to the main branch root
         run: |
+          rm -rf _next site-assets
           cp -a out/. ./
           touch .nojekyll
           if [[ -n "$(git status --porcelain -- . ':!public')" ]]; then
