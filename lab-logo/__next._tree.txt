@@ -3,4 +3,4 @@
 :HL["/chemistry-lab-illustration.jpg","image"]
 :HL["/lab-character-fox.png","image"]
 :HL["/lab-character-duo.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"lab-logo","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"hoOTtVyiwwbOX874BfTmV"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"lab-logo","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"gRCdVdyEJHnzRf-O_AfAF"}
