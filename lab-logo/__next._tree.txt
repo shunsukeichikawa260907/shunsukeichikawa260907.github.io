@@ -1,6 +1,6 @@
-:HL["/_next/static/chunks/071s7nue21e-d.css","style"]
+:HL["/site-assets/static/chunks/14_s~uh5qfla3.css","style"]
 :HL["/lab-logo.png","image"]
 :HL["/chemistry-lab-illustration.jpg","image"]
 :HL["/lab-character-fox.png","image"]
 :HL["/lab-character-duo.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"lab-logo","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"7cRdMU2heLwSjBfCALIby"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"lab-logo","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"s1BjJ5NZS6HmDQDsFnMnU"}
