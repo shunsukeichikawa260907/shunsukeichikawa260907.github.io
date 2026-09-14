@@ -2,34 +2,39 @@ import { ArticleHeader, ExternalCard, PageLayout, SectionTitle } from "@/compone
 
 const recentActivities = [
   {
+    date: "2026.09.10",
+    dateTime: "2026-09-10",
+    text: "9/10には、地域発酵食品について、地元事業者の方と共同しての活動をするために、お話しました。貴重な発酵食品も提供いただいて、これから解析してみます。",
+  },
+  {
+    date: "2026.08下旬〜",
+    dateTime: "2026-08",
+    text: "8月下旬から、数名の2年生に、研究室体験できてもらっています。みなさん上手に実験できています。",
+  },
+  {
     date: "2026.09.02",
     dateTime: "2026-09-02",
     text: "9/2には、大学院博士後期課程への入学に関心を持っていただいている、海外からの方とお話できました。これからどうぞよろしくお願いします。",
-    href: "https://x.com/sichikawa_lab/status/2095144061216981328",
   },
   {
     date: "2026.08.27",
     dateTime: "2026-08-27",
     text: "8/27には、フグの卵巣糠漬けの研究について、地域企業の方とディスカッションしました",
-    href: "https://x.com/sichikawa_lab/status/2095143581833142307",
   },
   {
     date: "2026.08.24–25",
     dateTime: "2026-08-24",
     text: "8/24-25では、イノベーション創出のノウハウを学びました",
-    href: "https://x.com/sichikawa_lab/status/2095143304811946173",
   },
   {
     date: "2026.08.20–21",
     dateTime: "2026-08-20",
     text: "8/20-21では、ポジティブ心理学について学びました",
-    href: "https://x.com/sichikawa_lab/status/2095142693496357001",
   },
   {
     date: "2026.07.31",
     dateTime: "2026-07-31",
     text: "7/31には、関係企業の方にお越しいただいて、実験環境を整備しました。",
-    href: "https://x.com/sichikawa_lab/status/2095141716672356652",
   },
 ];
 
@@ -44,10 +49,10 @@ export default function HomePage() {
         <SectionTitle>最近の活動</SectionTitle>
         <div className="activity-list">
           {recentActivities.map((activity) => (
-            <a className="activity-item" href={activity.href} target="_blank" rel="noreferrer" key={activity.href}>
+            <div className="activity-item" key={activity.dateTime}>
               <time dateTime={activity.dateTime}>{activity.date}</time>
               <span>{activity.text}</span>
-            </a>
+            </div>
           ))}
         </div>
         <p className="activity-profile-link"><a href="https://x.com/sichikawa_lab" target="_blank" rel="noreferrer">@sichikawa_labの投稿一覧</a></p>

@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-origin="https://shunsuke-ichikawa.shunsukeichikawa.chatgpt.site"
+# Assets are committed under public/. Validate them locally so publishing
+# remains independent of the archived ChatGPT Sites version.
 
 assets=(
   "chemistry-lab-animation.mp4"
@@ -35,10 +36,11 @@ assets=(
   "window.svg"
 )
 
+missing_assets=0
 for asset in "${assets[@]}"; do
-  mkdir -p "public/$(dirname "$asset")"
-  curl --fail --location --retry 3 --retry-delay 2 \
-    "$origin/$asset" \
-    --output "public/$asset"
-  test -s "public/$asset"
+  if [[ ! -s "public/$asset" ]]; then
+    printf 'Missing or empty website asset: %s\n' "public/$asset" >&2
+    missing_assets=1
+  fi
 done
+exit "$missing_assets"

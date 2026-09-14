@@ -2,34 +2,39 @@ import { ArticleHeader, ExternalCard, PageLayout, SectionTitle } from "@/compone
 
 const recentActivities = [
   {
+    date: "2026.09.10",
+    dateTime: "2026-09-10",
+    text: "On September 10, I spoke with local business representatives about working together on regional fermented foods. They also provided valuable fermented food samples, which I plan to analyze.",
+  },
+  {
+    date: "Since late Aug 2026",
+    dateTime: "2026-08",
+    text: "Since late August, several second-year students have been visiting the laboratory for hands-on experience. They are all doing well with their experiments.",
+  },
+  {
     date: "Sep. 2, 2026",
     dateTime: "2026-09-02",
     text: "I spoke with an international prospective student interested in entering a doctoral program. I look forward to staying in touch.",
-    href: "https://x.com/sichikawa_lab/status/2095144061216981328",
   },
   {
     date: "Aug. 27, 2026",
     dateTime: "2026-08-27",
     text: "I discussed research on fermented pufferfish ovaries with representatives of a local company.",
-    href: "https://x.com/sichikawa_lab/status/2095143581833142307",
   },
   {
     date: "Aug. 24–25, 2026",
     dateTime: "2026-08-24",
     text: "I learned practical approaches to creating innovation.",
-    href: "https://x.com/sichikawa_lab/status/2095143304811946173",
   },
   {
     date: "Aug. 20–21, 2026",
     dateTime: "2026-08-20",
     text: "I studied positive psychology.",
-    href: "https://x.com/sichikawa_lab/status/2095142693496357001",
   },
   {
     date: "Jul. 31, 2026",
     dateTime: "2026-07-31",
     text: "We prepared our experimental environment with representatives of a collaborating company.",
-    href: "https://x.com/sichikawa_lab/status/2095141716672356652",
   },
 ];
 
@@ -48,10 +53,10 @@ export default function EnglishHomePage() {
         <SectionTitle>Recent activities</SectionTitle>
         <div className="activity-list">
           {recentActivities.map((activity) => (
-            <a className="activity-item" href={activity.href} target="_blank" rel="noreferrer" key={activity.href}>
+            <div className="activity-item" key={activity.dateTime}>
               <time dateTime={activity.dateTime}>{activity.date}</time>
               <span>{activity.text}</span>
-            </a>
+            </div>
           ))}
         </div>
         <p className="activity-profile-link"><a href="https://x.com/sichikawa_lab" target="_blank" rel="noreferrer">Posts by @sichikawa_lab (Japanese)</a></p>
