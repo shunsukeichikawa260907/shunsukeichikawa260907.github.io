@@ -48,7 +48,7 @@ export default function HomePage() {
 
         <SectionTitle>最近の活動</SectionTitle>
         <div className="activity-list">
-          {recentActivities.map((activity) => (
+          {recentActivities.slice(0, 5).map((activity) => (
             <div className="activity-item" key={activity.dateTime}>
               <time dateTime={activity.dateTime}>{activity.date}</time>
               <span>{activity.text}</span>

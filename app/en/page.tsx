@@ -52,7 +52,7 @@ export default function EnglishHomePage() {
 
         <SectionTitle>Recent activities</SectionTitle>
         <div className="activity-list">
-          {recentActivities.map((activity) => (
+          {recentActivities.slice(0, 5).map((activity) => (
             <div className="activity-item" key={activity.dateTime}>
               <time dateTime={activity.dateTime}>{activity.date}</time>
               <span>{activity.text}</span>
