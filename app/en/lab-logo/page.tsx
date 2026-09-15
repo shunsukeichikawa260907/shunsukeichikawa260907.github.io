@@ -8,7 +8,7 @@ export default function EnglishLabLogoPage() {
         <img className="logo-image" src="/lab-logo.png" alt="Laboratory logo depicting diverse microorganisms interacting in the environment" />
         <p>Our laboratory logo represents diverse environmental microorganisms living and interacting with one another.</p>
         <p>The design has also been made into an acrylic keychain.</p>
-        <ExternalCard href="https://suzuri.jp/minato_whale/12786166/acrylic-keychain/50x50mm/clear" title="Acrylic keychain featuring the lab logo" description="The linked page may occasionally be unavailable." domain="suzuri.jp" />
+        <ExternalCard href="https://suzuri.jp/kujirazaka/12786166/acrylic-keychain/50x50mm/clear" title="Acrylic keychain featuring the lab logo" description="The linked page may occasionally be unavailable." domain="suzuri.jp" />
 
         <SectionTitle>Laboratory illustration</SectionTitle>
         <div className="chemistry-lab-media">
