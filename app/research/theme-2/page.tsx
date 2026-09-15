@@ -22,7 +22,7 @@ export default function ThemeTwoPage() {
         <ExternalCard href="https://www.t-gex.nagoya-u.ac.jp/member/1218-2.html" title="市川 俊輔 T-GEx研究者紹介" domain="www.t-gex.nagoya-u.ac.jp" />
         <ExternalCard href="https://www.kanazawa-it.ac.jp/kitnews/2026/0721_ICHIKAWA.html" title="子どもの発達と腸内細菌の関係を探る。日本の未就学児を対象に、成長・行動特性と腸内細菌叢の関連を解析" description="金沢工業大学 プレスリリース（2026年7月21日）" domain="www.kanazawa-it.ac.jp" />
         <Publication href="https://www.frontiersin.org/articles/10.3389/fmicb.2023.1079187/full" title="Paraburkholderia sabiae administration alters zebrafish anxiety-like behavior via gut microbial taurine metabolism." authors="Shunsuke Ichikawa, Reimi Abe, Haruka Fujimoto, Koushi Higashi, Liqing Zang, Hiroko Nakayama, Izumi Matsuoka and Yasuhito Shimada." journal="Frontiers in Microbiology. 14: 1079187. 2023." />
-        <Publication href="https://www.nature.com/articles/s41598-026-59018-4" title="Gut microbiome composition and predicted functions relate to growth and behavior in a Japanese preschool cohort." authors="Shunsuke Ichikawa, Ayaka Shimura, Aoi Kikuchi, Rise Sanda, Kensaku Sasayama, Keiko Nonoue, Hiroko Tamura, Takahiro Kano, Yasuhito Shimada." journal="Scientific Reports. 2026." />
+        <Publication href="https://www.nature.com/articles/s41598-026-59018-4" title="Gut microbiome composition and predicted functions relate to growth and behavior in a Japanese preschool cohort." authors="Shunsuke Ichikawa, Ayaka Shimura, Aoi Kikuchi, Rise Sanda, Kensaku Sasayama, Keiko Nonoue, Hiroko Tamura, Takahiro Kano, Yasuhito Shimada." journal="Scientific Reports. 16: 28604. 2026." />
         <figure className="research-figure"><img src="/research-images/microbiome-research.jpg" alt="菌叢機能研究の資料" /></figure>
       </article>
     </PageLayout>
