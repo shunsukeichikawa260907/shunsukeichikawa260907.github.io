@@ -16,7 +16,7 @@ export default function LabLogoPage() {
           <img src="/chemistry-lab-illustration.jpg" alt="研究室のイメージ絵" />
           <div className="video-block"><video src="/chemistry-lab-animation.mp4" controls preload="metadata" poster="/chemistry-lab-illustration.jpg" aria-label="研究室のイメージ動画" /></div>
         </div>
-        <p><a href="https://lit.link/minatowhale" target="_blank" rel="noreferrer">みなと鯨坂</a>さんに作成いただきました。こちらの意向を丁寧に聞いていただき、デザインに反映いただきました。ありがとうございました。</p>
+        <p><a href="https://lit.link/minatowhale" target="_blank" rel="noreferrer">鯨坂</a>さんに作成いただきました。こちらの意向を丁寧に聞いていただき、デザインに反映いただきました。ありがとうございました。</p>
         <ExternalCard href="https://lit.link/minatowhale" title="鯨坂 / Kujirazaka" description="イラストレーター／Live2Dモデラー／Vtuber" domain="lit.link" />
 
         <div className="logo-gallery">

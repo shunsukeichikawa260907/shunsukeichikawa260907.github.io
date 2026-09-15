@@ -15,7 +15,7 @@ export default function EnglishLabLogoPage() {
           <img src="/chemistry-lab-illustration.jpg" alt="Illustration inspired by the laboratory" />
           <div className="video-block"><video src="/chemistry-lab-animation.mp4" controls preload="metadata" poster="/chemistry-lab-illustration.jpg" aria-label="Animation inspired by the laboratory" /></div>
         </div>
-        <p>The illustration and animation were created by <a href="https://lit.link/minatowhale" target="_blank" rel="noreferrer">Minato Kujirazaka</a>, who carefully incorporated our ideas into the design.</p>
+        <p>The illustration and animation were created by <a href="https://lit.link/minatowhale" target="_blank" rel="noreferrer">Kujirazaka</a>, who carefully incorporated our ideas into the design.</p>
         <ExternalCard href="https://lit.link/minatowhale" title="Kujirazaka" description="Illustrator, Live2D modeler, and virtual creator" domain="lit.link" />
 
         <div className="logo-gallery">
