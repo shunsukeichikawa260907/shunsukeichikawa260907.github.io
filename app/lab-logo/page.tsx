@@ -9,7 +9,7 @@ export default function LabLogoPage() {
         <p>研究室ロゴを作りました。</p>
         <p>環境中の多様な微生物が、お互いに関わり合いながら存在している様子を表現しています。</p>
         <p>アクリルキーホルダーにもなっています。</p>
-        <ExternalCard href="https://suzuri.jp/kujirazaka/12786166/acrylic-keychain/50x50mm/clear" title="研究室ロゴのアクリルキーホルダー" description="現在、リンク先が表示されない場合があります。" domain="suzuri.jp" />
+        <ExternalCard href="https://suzuri.jp/kujirazaka/12786166/acrylic-keychain/50x50mm/clear" title="研究室ロゴのアクリルキーホルダー" domain="suzuri.jp" />
 
         <SectionTitle>研究室のイメージ絵</SectionTitle>
         <div className="chemistry-lab-media">
