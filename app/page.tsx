@@ -44,6 +44,7 @@ export default function HomePage() {
       <ArticleHeader title="微生物の機能を探り、健康・食・持続可能な社会へつなげる" />
       <article className="entry-content">
         <p>金沢工業大学 バイオ・化学部 生命・応用バイオ学科 / ゲノム生物工学研究所の市川俊輔と申します。</p>
+        <p>活動概要については、<a href="https://researchmap.jp/shunsuke.ichikawa" target="_blank" rel="noreferrer">researchmap</a>をご覧ください。</p>
         <p>個々の細菌と複雑な微生物群集が、どのように応答し、相互作用し、有用な機能を生み出すのかを研究しています。基礎的な微生物学と、健康、環境技術、地域資源の活用を結び付けます。わたしたちは食品・健康・農業・環境などあらゆる場面で微生物の力を活用してきましたが、一方でいまだ未探索な微生物が膨大に存在していることがわかっています。みなさまとの積極的な共同研究・受託研究を実現しながら、価値の高い新規微生物機能を発掘します。</p>
 
         <SectionTitle>最近の活動</SectionTitle>

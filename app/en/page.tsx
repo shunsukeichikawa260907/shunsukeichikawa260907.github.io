@@ -44,6 +44,7 @@ export default function EnglishHomePage() {
       <ArticleHeader title="Exploring microbial functions for health, food, and a sustainable society" />
       <article className="entry-content">
         <p>I am Shunsuke Ichikawa of the Department of Applied Bioscience, College of Bioscience and Chemistry, and the Genome Biotechnology Laboratory at Kanazawa Institute of Technology.</p>
+        <p>For an overview of my activities, please visit <a href="https://researchmap.jp/shunsuke.ichikawa" target="_blank" rel="noreferrer">researchmap</a>.</p>
         <p>We investigate how individual bacteria and complex microbial communities respond, interact, and generate useful functions. Our research connects fundamental microbiology with health, environmental technology, and the use of regional resources. Microorganisms have long supported food, health, agriculture, and environmental applications, yet vast microbial diversity remains unexplored. Through active collaborative and contract research, we seek valuable new microbial functions.</p>
 
         <SectionTitle>Prospective graduate students</SectionTitle>
