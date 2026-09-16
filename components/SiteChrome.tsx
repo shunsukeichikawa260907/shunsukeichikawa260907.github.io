@@ -25,14 +25,11 @@ const englishNavigation = [
   { href: "/en/contact", label: "Contact" },
 ];
 
-const microbeHeaderImages = [
+// Keep the centered pattern covered on wide displays without stretching the art.
+const microbeHeaderImages = Array.from({ length: 7 }, () => [
   "/microbe-header-left.png",
   "/microbe-header-right.png",
-  "/microbe-header-left.png",
-  "/microbe-header-right.png",
-  "/microbe-header-left.png",
-  "/microbe-header-right.png",
-];
+]).flat();
 
 export function SiteHeader() {
   const pathname = usePathname();

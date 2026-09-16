@@ -57,6 +57,12 @@ button, input, textarea { font: inherit; }
   display: block;
   flex: 0 0 auto;
 }
+/* Blend only the narrow joins; keep the original illustrations intact. */
+.microbe-header-strip img + img {
+  margin-left: -8px;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 6px);
+  mask-image: linear-gradient(to right, transparent, #000 6px);
+}
 .primary-nav { border-top: 1px solid #edf0f3; border-bottom: 1px solid #e5e8eb; background: var(--white); }
 .primary-nav-inner { width: min(1256px, calc(100% - 40px)); min-height: 60px; margin: 0 auto; display: flex; align-items: stretch; overflow-x: auto; }
 .primary-nav a { min-width: max-content; min-height: 60px; padding: 0 13px; display: flex; align-items: center; justify-content: center; color: var(--text); font-size: 15px; font-weight: 400; line-height: 60px; white-space: nowrap; }
