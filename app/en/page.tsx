@@ -2,6 +2,16 @@ import { ArticleHeader, ExternalCard, PageLayout, SectionTitle } from "@/compone
 
 const recentActivities = [
   {
+    date: "Sep. 20, 2026",
+    dateTime: "2026-09-20",
+    text: "We welcomed many high school students to our open campus event.",
+  },
+  {
+    date: "Sep. 16, 2026",
+    dateTime: "2026-09-16",
+    text: "We shared a preprint on bioRxiv examining associations between the gut microbiome and depressive symptoms in Japanese adults.",
+  },
+  {
     date: "2026.09.10",
     dateTime: "2026-09-10",
     text: "On September 10, I spoke with local business representatives about working together on regional fermented foods. They also provided valuable fermented food samples, which I plan to analyze.",

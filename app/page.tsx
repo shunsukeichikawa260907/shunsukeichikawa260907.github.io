@@ -2,6 +2,16 @@ import { ArticleHeader, ExternalCard, PageLayout, SectionTitle } from "@/compone
 
 const recentActivities = [
   {
+    date: "2026.09.20",
+    dateTime: "2026-09-20",
+    text: "オープンキャンパスで、多くの高校生のみなさんをお迎えしました。",
+  },
+  {
+    date: "2026.09.16",
+    dateTime: "2026-09-16",
+    text: "日本人成人の腸内細菌叢とうつ症状の関連に関する研究成果を、プレプリントとしてbioRxivに公開しました。",
+  },
+  {
     date: "2026.09.10",
     dateTime: "2026-09-10",
     text: "9/10には、地域発酵食品について、地元事業者の方と共同しての活動をするために、お話しました。貴重な発酵食品も提供いただいて、これから解析してみます。",
