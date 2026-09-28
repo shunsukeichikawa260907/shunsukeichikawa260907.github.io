@@ -76,7 +76,7 @@ export default function HomePage() {
             </div>
           ))}
         </div>
-        <p className="activity-profile-link"><a href="https://x.com/sichikawa_lab" target="_blank" rel="noreferrer">@sichikawa_labの投稿一覧</a></p>
+        <p className="activity-profile-link"><a href="https://x.com/sichikawa_lab" target="_blank" rel="noreferrer">@sichikawa_labの投稿・リポスト一覧</a></p>
 
         <SectionTitle>気になるニュースをつぶやきます</SectionTitle>
         <ExternalCard href="https://twitter.com/Shunsuke_chon" title="市川俊輔のX（Twitter）" description="研究や科学に関するニュースを紹介しています。" domain="x.com / @Shunsuke_chon" />

@@ -80,7 +80,7 @@ export default function EnglishHomePage() {
             </div>
           ))}
         </div>
-        <p className="activity-profile-link"><a href="https://x.com/sichikawa_lab" target="_blank" rel="noreferrer">Posts by @sichikawa_lab (Japanese)</a></p>
+        <p className="activity-profile-link"><a href="https://x.com/sichikawa_lab" target="_blank" rel="noreferrer">Posts and reposts by @sichikawa_lab (Japanese)</a></p>
 
         <SectionTitle>Research news and commentary</SectionTitle>
         <ExternalCard href="https://twitter.com/Shunsuke_chon" title="Shunsuke Ichikawa on X" description="Research and science news, mainly in Japanese." domain="x.com / @Shunsuke_chon" />
