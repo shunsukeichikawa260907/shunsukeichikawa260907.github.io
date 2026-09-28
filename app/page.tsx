@@ -2,6 +2,16 @@ import { ArticleHeader, ExternalCard, PageLayout, SectionTitle } from "@/compone
 
 const recentActivities = [
   {
+    date: "2026.09.26",
+    dateTime: "2026-09-26",
+    text: "教育工学会で「プロジェクトデザイン教育における企業現地調査の導入が学生の積極性に与える効果」をポスター発表しました。",
+  },
+  {
+    date: "2026.09.26",
+    dateTime: "2026-09-26",
+    text: "教育工学会で「プロジェクトデザイン教育における実践的な取り組みに対する企業コラボレーションの効果」をポスター発表しました。",
+  },
+  {
     date: "2026.09.20",
     dateTime: "2026-09-20",
     text: "オープンキャンパスで、多くの高校生のみなさんをお迎えしました。",
@@ -60,7 +70,7 @@ export default function HomePage() {
         <SectionTitle>最近の活動</SectionTitle>
         <div className="activity-list">
           {recentActivities.slice(0, 5).map((activity) => (
-            <div className="activity-item" key={activity.dateTime}>
+            <div className="activity-item" key={activity.dateTime + activity.text}>
               <time dateTime={activity.dateTime}>{activity.date}</time>
               <span>{activity.text}</span>
             </div>
