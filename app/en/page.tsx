@@ -2,6 +2,11 @@ import { ArticleHeader, ExternalCard, PageLayout, SectionTitle } from "@/compone
 
 const recentActivities = [
   {
+    date: "Sep. 29, 2026",
+    dateTime: "2026-09-29",
+    text: "We presented research at the Japanese Society of Microbial Ecology on the reduction of anxiety-like behavior in zebrafish by Paraburkholderia sabiae.",
+  },
+  {
     date: "Sep. 26, 2026",
     dateTime: "2026-09-26",
     text: "We presented a poster at an educational technology conference on the effects of introducing company site visits on students' initiative in project design education.",

@@ -2,6 +2,11 @@ import { ArticleHeader, ExternalCard, PageLayout, SectionTitle } from "@/compone
 
 const recentActivities = [
   {
+    date: "2026.09.29",
+    dateTime: "2026-09-29",
+    text: "日本微生物生態学会で、Paraburkholderia sabiaeによるゼブラフィッシュの不安行動軽減について研究成果を紹介しました。",
+  },
+  {
     date: "2026.09.26",
     dateTime: "2026-09-26",
     text: "教育工学会で「プロジェクトデザイン教育における企業現地調査の導入が学生の積極性に与える効果」をポスター発表しました。",
