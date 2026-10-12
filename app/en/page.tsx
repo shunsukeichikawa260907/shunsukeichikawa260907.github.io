@@ -2,6 +2,11 @@ import { ArticleHeader, ExternalCard, PageLayout, SectionTitle } from "@/compone
 
 const recentActivities = [
   {
+    date: "Oct. 11, 2026",
+    dateTime: "2026-10-11",
+    text: "Laboratory assignments have been decided, and six students will join the Ichikawa Laboratory.",
+  },
+  {
     date: "Sep. 29, 2026",
     dateTime: "2026-09-29",
     text: "We presented research at the Japanese Society of Microbial Ecology on the reduction of anxiety-like behavior in zebrafish by Paraburkholderia sabiae.",

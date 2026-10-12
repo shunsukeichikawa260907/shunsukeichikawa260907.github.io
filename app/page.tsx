@@ -2,6 +2,11 @@ import { ArticleHeader, ExternalCard, PageLayout, SectionTitle } from "@/compone
 
 const recentActivities = [
   {
+    date: "2026.10.11",
+    dateTime: "2026-10-11",
+    text: "学生の研究室配属が決まり、6名が市川研究室に加わることになりました。",
+  },
+  {
     date: "2026.09.29",
     dateTime: "2026-09-29",
     text: "日本微生物生態学会で、Paraburkholderia sabiaeによるゼブラフィッシュの不安行動軽減について研究成果を紹介しました。",
