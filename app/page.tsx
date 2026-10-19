@@ -2,6 +2,11 @@ import { ArticleHeader, ExternalCard, PageLayout, SectionTitle } from "@/compone
 
 const recentActivities = [
   {
+    date: "2026.10.15",
+    dateTime: "2026-10-15",
+    text: "共同研究先企業の方をお迎えし、今後の方針について話し合いました。",
+  },
+  {
     date: "2026.10.11",
     dateTime: "2026-10-11",
     text: "学生の研究室配属が決まり、6名が市川研究室に加わることになりました。",
