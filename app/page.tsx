@@ -2,6 +2,11 @@ import { ArticleHeader, ExternalCard, PageLayout, SectionTitle } from "@/compone
 
 const recentActivities = [
   {
+    date: "2026.11.08",
+    dateTime: "2026-11-08",
+    text: "微生物セルカウンター「µCount3D」を試用しました。迅速な微生物数評価に役立ちそうです。",
+  },
+  {
     date: "2026.10.15",
     dateTime: "2026-10-15",
     text: "共同研究先企業の方をお迎えし、今後の方針について話し合いました。",

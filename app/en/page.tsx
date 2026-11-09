@@ -2,6 +2,11 @@ import { ArticleHeader, ExternalCard, PageLayout, SectionTitle } from "@/compone
 
 const recentActivities = [
   {
+    date: "Nov. 8, 2026",
+    dateTime: "2026-11-08",
+    text: "We tested the µCount3D microbial cell counter, which appears useful for rapid microbial cell counting.",
+  },
+  {
     date: "Oct. 15, 2026",
     dateTime: "2026-10-15",
     text: "We welcomed representatives from a collaborating company and discussed future directions.",
